@@ -1,0 +1,59 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to MkDocs\n\u00b6\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\n\n\n\u2122\n\n\ndog\n \n=\n \nDog\n(\nname\n=\n'peke'\n)\n\n\nfrom\n \ndjango.db\n \nimport\n \nmodels\n\n\n\nclass\n \nDog\n(\nmodels\n.\nModel\n):\n\n    \nname\n \n=\n \nmodels\n.\nCharField\n(\nmax_length\n=\n255\n)\n\n\n\n\ndog\n \n=\n \nDog\n(\nname\n=\n'peke'\n)\n\n\n\n\n\nCtrl\n+\nAlt\n+\nDel\n\n\nCommands\n\u00b6\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\u00b6\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Welcome to MkDocs"
+        },
+        {
+            "location": "/#welcome-to-mkdocs",
+            "text": "For full documentation visit  mkdocs.org .   \u2122  dog   =   Dog ( name = 'peke' )  from   django.db   import   models  class   Dog ( models . Model ): \n     name   =   models . CharField ( max_length = 255 )  dog   =   Dog ( name = 'peke' )   Ctrl + Alt + Del",
+            "title": "Welcome to MkDocs"
+        },
+        {
+            "location": "/#commands",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "title": "Commands"
+        },
+        {
+            "location": "/#project-layout",
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Project layout"
+        },
+        {
+            "location": "/about/",
+            "text": "Fretum gentisque videri suspiria pontus\n\u00b6\n\n\nModo erat contigit radix silvas per Liber\n\u00b6\n\n\nLorem markdownum: corona: reddit quodque. Clausura armo; cinximus et ferum ardet\nest infuso \nclamavit\n, et. Quas\nadsumptumque collo resuscitat et inter exsultat, Cephenum quod, nam.\n\n\n\n\nSed scilicet in frater tu \nbella\n: qui pudet telaque dederat quodsi. Id\ncentum adspexerit somnos, inpedientibus loquor regia, habeo, haec deae verae\ntristia.\n\n\n\n\nBracchia is avem terram\n\u00b6\n\n\nCautum quoque \ntamen inquit dea\n nudaque nuntia, verbaque in\nnunc vituli, commissa. Miserrima iaculum multicavo Thoantis laeva centauri, tura\npopulos rapta, vertit natas tenent freta curasque tollens. Hac saepe, ipsa,\nnymphe caput et mergis molles ut haerentem tamen vulnera sanguis. Descendunt\naeraque et, tuis isque locumque et auras quid, praestantior Sparte prece mutabit\nfilia: time.\n\n\nUbi quam tyranno fecisses Atlante bracchia minuendo\n\u00b6\n\n\nTua prodita nondum quemquam habenti, puro duxit Pergama, senior quae noctis, et.\nPando et consuetissima retinete iamdudum mirabantur nostro verticibusque color\nquandoquidem.\n\n\n\n\nQuod iudicis est dabit placida se beati et corpore solacia poterat armataque\nsi novat \nhis Nereius\n ferox: vacuus: medios? Agmen\nsit labores limus et patuisset materia.\n\n\n\n\nEt oraque ramos iam hasta\n\u00b6\n\n\nOmnes cum verbis mediis, hac sede videtur tumulumque a exiguo habemus numeros.\nArvo namque, in si potuisse condidit; donec ubi sonantia \nlevata\n: Bacchus\nvirginei isset arborea, rugae, quereris. Mixtam cum Cernis pice legebant solum:\nauro et Caune si supremumque illis trepidoque verba quis inerti \nillis\n.\nInspirantque mollit stabula petis via secuti mea expers haut perque, frena quam,\nunam!\n\n\ncluster_jsp_debugger = fi_pci_standalone.odbcDongleBar(plagiarismFriend,\n        checksumWebAlert + memory);\nvar logic = exploitThumbnailProtocol;\nbackup_expression = c;\nmebibyte_rw_metal -= dbms(alu_ddr_jsf + minimize_rw.dimm(deprecated));\n\n\n\n\nPriamides devicto divitibusque guttura timuere spatium agris\n\u00b6\n\n\nIra hoc tenebras capitum atque, videns \nignes\n? Serpentum tibi\n\nsuo\n, serpit pars maxima quantaque foedantem iam.\n\n\nForsitan quodvis. Paulatimque domum addunt, Lichae nobilitas racemifero, facinus\nleones, ubi. \nFerroque territus et\n vagatur latet: hinc est saeva quod.",
+            "title": "Fretum gentisque videri suspiria pontus"
+        },
+        {
+            "location": "/about/#fretum-gentisque-videri-suspiria-pontus",
+            "text": "",
+            "title": "Fretum gentisque videri suspiria pontus"
+        },
+        {
+            "location": "/about/#modo-erat-contigit-radix-silvas-per-liber",
+            "text": "Lorem markdownum: corona: reddit quodque. Clausura armo; cinximus et ferum ardet\nest infuso  clamavit , et. Quas\nadsumptumque collo resuscitat et inter exsultat, Cephenum quod, nam.   Sed scilicet in frater tu  bella : qui pudet telaque dederat quodsi. Id\ncentum adspexerit somnos, inpedientibus loquor regia, habeo, haec deae verae\ntristia.",
+            "title": "Modo erat contigit radix silvas per Liber"
+        },
+        {
+            "location": "/about/#bracchia-is-avem-terram",
+            "text": "Cautum quoque  tamen inquit dea  nudaque nuntia, verbaque in\nnunc vituli, commissa. Miserrima iaculum multicavo Thoantis laeva centauri, tura\npopulos rapta, vertit natas tenent freta curasque tollens. Hac saepe, ipsa,\nnymphe caput et mergis molles ut haerentem tamen vulnera sanguis. Descendunt\naeraque et, tuis isque locumque et auras quid, praestantior Sparte prece mutabit\nfilia: time.",
+            "title": "Bracchia is avem terram"
+        },
+        {
+            "location": "/about/#ubi-quam-tyranno-fecisses-atlante-bracchia-minuendo",
+            "text": "Tua prodita nondum quemquam habenti, puro duxit Pergama, senior quae noctis, et.\nPando et consuetissima retinete iamdudum mirabantur nostro verticibusque color\nquandoquidem.   Quod iudicis est dabit placida se beati et corpore solacia poterat armataque\nsi novat  his Nereius  ferox: vacuus: medios? Agmen\nsit labores limus et patuisset materia.",
+            "title": "Ubi quam tyranno fecisses Atlante bracchia minuendo"
+        },
+        {
+            "location": "/about/#et-oraque-ramos-iam-hasta",
+            "text": "Omnes cum verbis mediis, hac sede videtur tumulumque a exiguo habemus numeros.\nArvo namque, in si potuisse condidit; donec ubi sonantia  levata : Bacchus\nvirginei isset arborea, rugae, quereris. Mixtam cum Cernis pice legebant solum:\nauro et Caune si supremumque illis trepidoque verba quis inerti  illis .\nInspirantque mollit stabula petis via secuti mea expers haut perque, frena quam,\nunam!  cluster_jsp_debugger = fi_pci_standalone.odbcDongleBar(plagiarismFriend,\n        checksumWebAlert + memory);\nvar logic = exploitThumbnailProtocol;\nbackup_expression = c;\nmebibyte_rw_metal -= dbms(alu_ddr_jsf + minimize_rw.dimm(deprecated));",
+            "title": "Et oraque ramos iam hasta"
+        },
+        {
+            "location": "/about/#priamides-devicto-divitibusque-guttura-timuere-spatium-agris",
+            "text": "Ira hoc tenebras capitum atque, videns  ignes ? Serpentum tibi suo , serpit pars maxima quantaque foedantem iam.  Forsitan quodvis. Paulatimque domum addunt, Lichae nobilitas racemifero, facinus\nleones, ubi.  Ferroque territus et  vagatur latet: hinc est saeva quod.",
+            "title": "Priamides devicto divitibusque guttura timuere spatium agris"
+        }
+    ]
+}
