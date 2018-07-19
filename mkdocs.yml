@@ -1,6 +1,29 @@
 site_name: Radyz
+site_author: Ernesto Chavez Sanchez
+jsite_description: Personal newbie blog
 pages:
   - Home: index.md
   - About: about.md
 theme: readthedocs
 repo_url: https://github.com/radyz/me
+edit_uri: blob/master/docs/
+google_analytics: ['UA-41184494-1', 'radyz']
+markdown_extensions:
+  - smarty
+  - toc:
+      permalink: True
+  - pymdownx.smartsymbols
+  - pymdownx.highlight:
+      use_pygments: True
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.tasklist
+  - pymdownx.keys
+  - pymdownx.betterem
+  - pymdownx.mark
+plugins:
+  - search
+  - awesome-pages
+dev_addr: '0.0.0.0:8000'
