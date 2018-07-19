@@ -4,17 +4,32 @@ jsite_description: Personal newbie blog
 pages:
   - Home: index.md
   - About: about.md
-theme: readthedocs
-repo_url: https://github.com/radyz/me
-edit_uri: blob/master/docs/
+theme: 
+  name: material
+  palette:
+    primary: blue grey
 google_analytics: ['UA-41184494-1', 'radyz']
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/radyz'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/ernesto-chavez-00857369/'
+    - type: 'stack-overflow'
+      link: 'https://stackoverflow.com/users/story/1200767'
+  extra:
+    disqus: 'radyz'
 markdown_extensions:
+  - meta
+  - admonition
+  - footnotes
   - smarty
   - toc:
       permalink: True
   - pymdownx.smartsymbols
   - pymdownx.highlight:
       use_pygments: True
+      linenums: True
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.emoji:
@@ -25,5 +40,4 @@ markdown_extensions:
   - pymdownx.mark
 plugins:
   - search
-  - awesome-pages
 dev_addr: '0.0.0.0:8000'
