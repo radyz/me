@@ -1,0 +1,6 @@
+site_name: Radyz
+pages:
+  - Home: index.md
+  - About: about.md
+theme: readthedocs
+repo_url: https://github.com/radyz/me
