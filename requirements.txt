@@ -1,5 +1,4 @@
 mkdocs==0.17.5
-mkdocs-awesome-pages-plugin==1.2.0
 mkdocs-material==2.9.2
 pymdown-extensions==4.11
 Pygments==2.2.0
