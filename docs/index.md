@@ -1,35 +1,8 @@
-# Welcome to MkDocs
+# Hope these tips are helpful to you
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+These will probably be my personal notes but if they can help anyone else
+then the better :smile:
 
-:smile:
+!!! tip "Django"
 
-(tm)
-
-`:::python dog = Dog(name='peke')`
-
-```python
-from django.db import models
-
-class Dog(models.Model):
-    name = models.CharField(max_length=255)
-
-
-dog = Dog(name='peke')
-```
-
-++ctrl+alt+delete++
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    [DRF paginator with lots of columns](blog/drf-pagenumber-paginator-performance.md)

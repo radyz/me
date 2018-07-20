@@ -1,22 +1,23 @@
 site_name: Radyz
 site_author: Ernesto Chavez Sanchez
-jsite_description: Personal newbie blog
+site_description: Tales of a newbie
 pages:
   - Home: index.md
-  - About: about.md
+  - Blog:
+    - blog/drf-pagenumber-paginator-performance.md
 theme: 
   name: material
   palette:
-    primary: blue grey
+    primary: red
 google_analytics: ['UA-41184494-1', 'radyz']
 extra:
   social:
     - type: 'github'
       link: 'https://github.com/radyz'
-    - type: 'linkedin'
-      link: 'https://www.linkedin.com/in/ernesto-chavez-00857369/'
     - type: 'stack-overflow'
       link: 'https://stackoverflow.com/users/story/1200767'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/ernesto-chavez-00857369/'
   extra:
     disqus: 'radyz'
 markdown_extensions:
