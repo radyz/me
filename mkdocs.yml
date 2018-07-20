@@ -10,7 +10,9 @@ theme:
   name: material
   palette:
     primary: red
-google_analytics: ['UA-41184494-1', 'radyz']
+google_analytics: 
+  - 'UA-41184494-1'
+  - 'radyz'
 extra:
   social:
     - type: 'github'
