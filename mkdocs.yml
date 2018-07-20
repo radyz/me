@@ -1,4 +1,5 @@
 site_name: Radyz
+site_url: https://radyz.me/
 site_author: Ernesto Chavez Sanchez
 site_description: Tales of a newbie
 pages:
@@ -18,8 +19,7 @@ extra:
       link: 'https://stackoverflow.com/users/story/1200767'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/in/ernesto-chavez-00857369/'
-  extra:
-    disqus: 'radyz'
+  disqus: 'radyz'
 markdown_extensions:
   - meta
   - admonition
