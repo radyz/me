@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>/</loc>
-     <lastmod>2018-07-19</lastmod>
+     <lastmod>2018-07-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/about/</loc>
-     <lastmod>2018-07-19</lastmod>
+     <loc>/blog/drf-pagenumber-paginator-performance/</loc>
+     <lastmod>2018-07-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
