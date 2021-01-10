@@ -2,7 +2,7 @@ site_name: Radyz
 site_url: https://radyz.me/
 site_author: Ernesto Chavez Sanchez
 site_description: Tales of a newbie
-pages:
+nav:
   - Home: index.md
   - Blog:
     - blog/drf-pagenumber-paginator-performance.md
@@ -15,11 +15,11 @@ google_analytics:
   - 'auto'
 extra:
   social:
-    - type: 'github'
+    - icon: 'fontawesome/brands/github'
       link: 'https://github.com/radyz'
-    - type: 'stack-overflow'
+    - icon: 'fontawesome/brands/stack-overflow'
       link: 'https://stackoverflow.com/users/story/1200767'
-    - type: 'linkedin'
+    - icon: 'fontawesome/brands/linkedin'
       link: 'https://www.linkedin.com/in/ernesto-chavez-00857369/'
   disqus: 'radyz'
 markdown_extensions:
@@ -36,11 +36,13 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist
   - pymdownx.keys
   - pymdownx.betterem
   - pymdownx.mark
 plugins:
-  - search
-dev_addr: '0.0.0.0:8000'
+  - search:
+      lang:
+        - en
