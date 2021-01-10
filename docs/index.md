@@ -1,8 +1,9 @@
-# Hope these tips are helpful to you
+# Development environment
 
-These will probably be my personal notes but if they can help anyone else
-then the better :smile:
+## Python
 
-!!! tip "Django"
+[Poetry](https://python-poetry.org). So far it's the best dependency manager
+I've used for python.
 
-    [DRF paginator with lots of columns](blog/drf-pagenumber-paginator-performance.md)
+[Pudb](https://pypi.org/project/pudb/). I use nvim as my main code editor so
+this is a must to be able to debug without exiting my terminal
