@@ -3,9 +3,8 @@ site_url: https://radyz.me/
 site_author: Ernesto Chavez Sanchez
 site_description: Tales of a newbie
 nav:
-  - Home: index.md
-  - Blog:
-    - blog/drf-pagenumber-paginator-performance.md
+  - Django: 
+    - django/drf-pagenumber-paginator-performance.md
 theme: 
   name: material
   palette:
@@ -34,7 +33,11 @@ markdown_extensions:
       use_pygments: True
       linenums: True
   - pymdownx.inlinehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -46,3 +49,5 @@ plugins:
   - search:
       lang:
         - en
+extra_javascript:
+  - https://unpkg.com/mermaid@8.6.4/dist/mermaid.min.js

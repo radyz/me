@@ -1,8 +1,24 @@
-# Hope these tips are helpful to you
+# Development environment
 
-These will probably be my personal notes but if they can help anyone else
-then the better :smile:
+[ohmyzsh](https://github.com/ohmyzsh/ohmyzsh). Terminal configuration manager
 
-!!! tip "Django"
+[tmux](https://github.com/tmux/tmux). Terminal multiplexer
 
-    [DRF paginator with lots of columns](blog/drf-pagenumber-paginator-performance.md)
+[neovim](https://github.com/neovim/neovim). Using this [setup](https://github.com/tixif-ni/dev-vim)
+
+[poetry](https://python-poetry.org). Dependency manager for python
+
+[pudb](https://pypi.org/project/pudb/). This is a must to be able to debug
+without exiting my terminal
+
+[black](https://github.com/psf/black). So I don't have to worry about formatting code
+
+[pytest](https://github.com/pytest-dev/pytest). Lots of plugins to enhance the
+testing experience overall
+
+[flake8](https://github.com/PyCQA/flake8). Check everything is ok with code
+
+[jedi](https://github.com/davidhalter/jedi). Autocompletion while using nvim
+
+[datagrip](https://www.jetbrains.com/datagrip/). Multiple databases in a single
+tool
