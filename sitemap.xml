@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>https://radyz.me/</loc>
-     <lastmod>2021-01-10</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://radyz.me/blog/drf-pagenumber-paginator-performance/</loc>
-     <lastmod>2021-01-10</lastmod>
+     <loc>https://radyz.me/django/drf-pagenumber-paginator-performance/</loc>
+     <lastmod>2021-02-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
