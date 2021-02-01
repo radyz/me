@@ -5,7 +5,6 @@ site_description: Tales of a newbie
 nav:
   - Django: 
     - django/drf-pagenumber-paginator-performance.md
-    - django/cloud-run-app.md
 theme: 
   name: material
   palette:
